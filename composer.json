@@ -1,0 +1,25 @@
+{
+    "name": "ramkumar/laravel-random-string",
+    "description": "Generate random string",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "MyPackage\\": "src/"
+        }
+       
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MyPackage\\RandomStringServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ram kumar",
+            "email": "ramkumar.srk007@gmail.com"
+        }
+    ],
+    "require": {}
+}
